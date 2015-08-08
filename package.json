@@ -1,0 +1,31 @@
+{
+  "name": "metalsmith-unlisted",
+  "version": "1.0.0",
+  "description": "Remove unlisted items from collections",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/index.js && eslint lib/ test/"
+  },
+  "repository": "alisdair/metalsmith-unlisted",
+  "keywords": [
+    "metalsmith",
+    "metalsmith-plugin"
+  ],
+  "author": "Alisdair McDiarmid <alisdair@mcdiarmid.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alisdair/metalsmith-unlisted/issues"
+  },
+  "homepage": "https://github.com/alisdair/metalsmith-unlisted#readme",
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "eslint": "^1.1.0",
+    "metalsmith": "0.x",
+    "metalsmith-collections": "^0.7.0",
+    "mocha": "^2.2.5",
+    "rimraf": "^2.4.2"
+  }
+}
