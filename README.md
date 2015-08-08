@@ -1,5 +1,7 @@
 # metalsmith-unlisted
 
+[![Build Status](https://travis-ci.org/alisdair/metalsmith-unlisted.svg)](https://travis-ci.org/alisdair/metalsmith-unlisted)
+
 Remove pages from collections, but still allow them to build. Useful for writing draft weblog posts and sharing with people, while not updating your listings or RSS feed.
 
 ## Usage
